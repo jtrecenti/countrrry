@@ -1,0 +1,28 @@
+---
+title: "brasileirao"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{brasileirao}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(countrrry)
+```
+
+Uma descrição mais detalhada do pacote
+
+```{r}
+encontrar_pior_ano_time("Corinthians")
+encontrar_pior_ano_time("Santos")
+encontrar_pior_ano_time("Juventus")
+```
+

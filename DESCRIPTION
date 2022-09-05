@@ -19,3 +19,7 @@ Depends:
 LazyData: true
 URL: https://github.com/jtrecenti/countrrry
 BugReports: https://github.com/jtrecenti/countrrry/issues
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
