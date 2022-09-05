@@ -8,5 +8,5 @@
 #'   \item{temporada}{Temporada do jogo (numeric)}
 #'   \item{data}{Data do jogo (date)}
 #' }
-#' @source Site do Brasileirão \url{asdfasdfasd}
+#' @source Site do Brasileirão \url{https://github.com/williamorim/brasileirao}
 "partidas_brasileirao"

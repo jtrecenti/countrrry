@@ -12,7 +12,7 @@ Uma base com 8026 linhas e 8 colunas:
 }
 }
 \source{
-Site do Brasileirão \url{asdfasdfasd}
+Site do Brasileirão \url{https://github.com/williamorim/brasileirao}
 }
 \usage{
 partidas_brasileirao
