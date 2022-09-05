@@ -7,6 +7,8 @@
 #' \describe{
 #'   \item{temporada}{Temporada do jogo (numeric)}
 #'   \item{data}{Data do jogo (date)}
+#'   \item{time_casa}{Nome do time da casa}
+#'   \item{time_visitante}{Nome do time visitante}
 #' }
 #' @source Site do Brasileirão \url{https://github.com/williamorim/brasileirao}
 "partidas_brasileirao"
