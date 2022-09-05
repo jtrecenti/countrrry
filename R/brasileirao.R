@@ -17,7 +17,11 @@
 encontrar_pior_ano_time <- function(time) {
   countrrry::partidas_brasileirao %>%
     dplyr::group_by(temporada, quem_ganhou) %>%
+<<<<<<< HEAD
     # filtra quem ganhou!!!
+=======
+    # filtra quem ganhou
+>>>>>>> 67d969ca42fddb321f1328baa5a008d87a386941
     dplyr::filter(quem_ganhou != "Empate", quem_ganhou %in% time) %>%
     dplyr::count(quem_ganhou, sort = TRUE, name = "n_vitorias") %>%
     dplyr::ungroup() %>%
