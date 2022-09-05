@@ -6,6 +6,7 @@
 #' um dado time. Olhe também [sumarizar_paises]
 #'
 #' @param time Uma string contendo o time.
+#' @param tirar_ano_atual Tira o ano atual.
 #'
 #' @return Um data frame com 3 colunas e 1 linha.
 #' @seealso A base [partidas_brasileirao].
@@ -14,10 +15,10 @@
 #' @examples
 #' # Encontrar o pior ano do Flamengo
 #' encontrar_pior_ano_time("Flamengo")
-encontrar_pior_ano_time <- function(time) {
+encontrar_pior_ano_time <- function(time, tirar_ano_atual = TRUE) {
   countrrry::partidas_brasileirao %>%
+    dplyr::filter(data < lubridate::floor_date(Sys.Date(), "year")) %>%
     dplyr::group_by(temporada, quem_ganhou) %>%
-    # filtra quem ganhou
     dplyr::filter(quem_ganhou != "Empate", quem_ganhou %in% time) %>%
     dplyr::count(quem_ganhou, sort = TRUE, name = "n_vitorias") %>%
     dplyr::ungroup() %>%

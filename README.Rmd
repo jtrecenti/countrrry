@@ -1,0 +1,52 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# countrrry
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of countrrry is to ...
+
+## Installation
+
+You can install the development version of countrrry from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("curso-r/202208-pacotes")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(countrrry)
+## basic example code
+```
+
+Mostrar as dez primeiras linhas da base de dados
+
+```{r}
+head(partidas_brasileirao)
+```
+
+Encontra o pior ano do time:
+
+```{r}
+encontrar_pior_ano_time("Corinthians")
+```
+

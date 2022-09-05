@@ -12,6 +12,7 @@ RoxygenNote: 7.2.1
 Imports: 
     dados,
     dplyr,
+    lubridate,
     magrittr
 Depends: 
     R (>= 4.1.0)
