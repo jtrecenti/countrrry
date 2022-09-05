@@ -16,3 +16,5 @@ Imports:
 Depends: 
     R (>= 4.1.0)
 LazyData: true
+URL: https://github.com/jtrecenti/countrrry
+BugReports: https://github.com/jtrecenti/countrrry/issues
