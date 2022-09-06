@@ -1,9 +1,9 @@
 
 #' Encontrar o pior ano de um time
 #'
-#' A função parte da base [partidas_brasileirao] e
-#' encontra o pior ano em número de vitórias para
-#' um dado time. Olhe também [sumarizar_paises]
+#' A funcao parte da base [partidas_brasileirao] e
+#' encontra o pior ano em numero de vitorias para
+#' um dado time. Olhe tambem [sumarizar_paises]
 #'
 #' @param time Uma string contendo o time.
 #' @param tirar_ano_atual Tira o ano atual.
@@ -24,9 +24,9 @@ encontrar_pior_ano_time <- function(time, tirar_ano_atual = TRUE) {
 
   if(!time_limpo %in% times_existentes_limpo){
 
-    usethis::ui_stop("O time escolhido não está na base do Brasileirão.
-                     Verifique se você escreveu corretamente.
-                     A função times_existentes() apresenta os times possíveis.")
+    usethis::ui_stop("O time escolhido n\u00E3o est\u00E1 na base do Brasileir\u00E3o.
+                     Verifique se voc\u00EA escreveu corretamente.
+                     A fun\u00E7\u00E3o times_existentes() apresenta os times poss\u00EDveis.")
   }
 
 

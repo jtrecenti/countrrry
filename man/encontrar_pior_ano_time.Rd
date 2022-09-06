@@ -15,9 +15,9 @@ encontrar_pior_ano_time(time, tirar_ano_atual = TRUE)
 Um data frame com 3 colunas e 1 linha.
 }
 \description{
-A função parte da base \link{partidas_brasileirao} e
-encontra o pior ano em número de vitórias para
-um dado time. Olhe também \link{sumarizar_paises}
+A funcao parte da base \link{partidas_brasileirao} e
+encontra o pior ano em numero de vitorias para
+um dado time. Olhe tambem \link{sumarizar_paises}
 }
 \examples{
 # Encontrar o pior ano do Flamengo
