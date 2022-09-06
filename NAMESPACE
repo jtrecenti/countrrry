@@ -3,4 +3,5 @@
 export("%>%")
 export(encontrar_pior_ano_time)
 export(sumarizar_paises)
+export(times_existentes)
 importFrom(magrittr,"%>%")

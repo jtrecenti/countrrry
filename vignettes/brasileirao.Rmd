@@ -23,6 +23,5 @@ Uma descrição mais detalhada do pacote
 ```{r}
 encontrar_pior_ano_time("Corinthians")
 encontrar_pior_ano_time("Santos")
-encontrar_pior_ano_time("Juventus")
 ```
 

@@ -4,10 +4,12 @@
 \alias{encontrar_pior_ano_time}
 \title{Encontrar o pior ano de um time}
 \usage{
-encontrar_pior_ano_time(time)
+encontrar_pior_ano_time(time, tirar_ano_atual = TRUE)
 }
 \arguments{
 \item{time}{Uma string contendo o time.}
+
+\item{tirar_ano_atual}{Tira o ano atual.}
 }
 \value{
 Um data frame com 3 colunas e 1 linha.
